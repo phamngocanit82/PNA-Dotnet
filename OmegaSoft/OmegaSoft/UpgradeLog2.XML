@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OmegaSoft">
+</Property><Property Name="Solution File" Value="C:\Project\OmegaSoft\OmegaSoft.sln">
+</Property><Property Name="Date" Value="Tuesday, November 20, 2007">
+</Property><Property Name="Time" Value="13:25:00 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\WindowsControlLibrary2.vbproj" Description="Project file successfully backed up as C:\Project\OmegaSoft\Backup\WindowsControlLibrary2.vbproj">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\WindowsControlLibrary2.vbproj.user" Description="Project user file successfully backed up as C:\Project\OmegaSoft\Backup\WindowsControlLibrary2.vbproj.user">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\AssemblyInfo.vb" Description="File successfully backed up as C:\Project\OmegaSoft\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\UserControl1.vb" Description="File successfully backed up as C:\Project\OmegaSoft\Backup\UserControl1.vb">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\UserControl1.resx" Description="File successfully backed up as C:\Project\OmegaSoft\Backup\UserControl1.resx">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\WindowsControlLibrary2.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\WindowsControlLibrary2.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsControlLibrary2" Source="..\..\Omega2008\WindowsControlLibrary2\WindowsControlLibrary2\WindowsControlLibrary2.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DF3BE06-426E-4F60-A8D0-FF261E3BE566}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OmegaSkins</RootNamespace>
+    <AssemblyName>SkinPNA</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SkinPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SkinPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\ButtonPNA.Designer.vb">
+      <DependentUpon>ButtonPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStyle1PNA.Designer.vb">
+      <DependentUpon>ButtonStyle1PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStyle1PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStyle2PNA.Designer.vb">
+      <DependentUpon>ButtonStyle2PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStyle2PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStyle3PNA.Designer.vb">
+      <DependentUpon>ButtonStyle3PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStyle3PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStyle4PNA.Designer.vb">
+      <DependentUpon>ButtonStyle4PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStyle4PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStyle5PNA.Designer.vb">
+      <DependentUpon>ButtonStyle5PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStyle5PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ComboBoxPNA.Designer.vb">
+      <DependentUpon>ComboBoxPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ComboBoxPNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\BarCodePNA.Designer.vb">
+      <DependentUpon>BarCodePNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\BarCodePNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TextBoxStyle2PNA.Designer.vb">
+      <DependentUpon>TextBoxStyle2PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TextBoxStyle2PNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DateTimePNA.Designer.vb">
+      <DependentUpon>DateTimePNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\DateTimePNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FormChildPNA.Designer.vb">
+      <DependentUpon>FormChildPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FormChildPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FrmDateTimePNA.Designer.vb">
+      <DependentUpon>FrmDateTimePNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmDateTimePNA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\FrmList.Designer.vb">
+      <DependentUpon>FrmList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\LabelStyle1PNA.Designer.vb">
+      <DependentUpon>LabelStyle1PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\LabelStyle1PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\LabelStyle2PNA.Designer.vb">
+      <DependentUpon>LabelStyle2PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\LabelStyle2PNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\NumericPNA.Designer.vb">
+      <DependentUpon>NumericPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\NumericPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\NumericStyle1PNA.Designer.vb">
+      <DependentUpon>NumericStyle1PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\NumericStyle1PNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\PicturePNA.Designer.vb">
+      <DependentUpon>PicturePNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\PicturePNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ProgressBarPNA.Designer.vb">
+      <DependentUpon>ProgressBarPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ProgressBarPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TextBoxPNA.Designer.vb">
+      <DependentUpon>TextBoxPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TextBoxPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TextBoxStyle1PNA.Designer.vb">
+      <DependentUpon>TextBoxStyle1PNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TextBoxStyle1PNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStyle1PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle1PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStyle2PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle2PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStyle3PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle3PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStyle4PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle4PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStyle5PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle5PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\DateTimePNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DateTimePNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FormChildPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormChildPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FrmDateTimePNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDateTimePNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\PicturePNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PicturePNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TextBoxStyle1PNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextBoxStyle1PNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\XMLButton.xml">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\XMLDateTime.xml">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\FrmList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\FormChildPNA\Frame01.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame02.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame03.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame04.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame05.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame06.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame07.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame08.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame09.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame10.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame11.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame12.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame13.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame14.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame15.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame16.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame17.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame18.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame19.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame20.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame21.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame22.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame23.png" />
+    <EmbeddedResource Include="Image\FormChildPNA\Frame24.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Caption01.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Caption02.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form01.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form02.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form03.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form04.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form05.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form06.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form07.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form08.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form09.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form10.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form11.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form12.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form13.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form14.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form15.png" />
+    <EmbeddedResource Include="Image\FrmList\Form1\Form16.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Caption03.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Caption04.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form17.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form18.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form19.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form20.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form21.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form22.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form23.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form24.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form25.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form26.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form27.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form28.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form29.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form30.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form31.png" />
+    <EmbeddedResource Include="Image\FrmList\Form2\Form32.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Caption05.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Caption06.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form33.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form34.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form35.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form36.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form37.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form38.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form39.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form40.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form41.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form42.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form43.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form44.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form45.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form46.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form47.png" />
+    <EmbeddedResource Include="Image\FrmList\Form3\Form48.png" />
+    <None Include="Resources\cloce.ico" />
+    <None Include="Resources\Refresh.ico" />
+    <None Include="Resources\check.ico" />
+    <None Include="Resources\childtoolbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonStyle1PNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonStyle2PNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonStyle3PNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonStyle4PNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ButtonStyle5PNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ComboBoxPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\DateTimePNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\FormChildPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\FrmList.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\NumericPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\PicturePNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\Toolbox\ProgressBarPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\BarCodePNA.resx">
+      <DependentUpon>BarCodePNA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TextBoxStyle2PNA.resx">
+      <DependentUpon>TextBoxStyle2PNA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TextBoxPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextBoxPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\Toolbox\TextBoxPNA.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottom-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-top.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-top.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-bottom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-bottom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\clsOmegaSoft\clsOmegaSoft\clsOmegaSoft.vbproj">
+      <Project>{F4545FCD-636C-48D9-A4B9-392A4F7EFA1B}</Project>
+      <Name>clsOmegaSoft</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinPNA1\SkinPNA1\SkinPNA1.vbproj">
+      <Project>{CF8CDAF2-0E1D-42E4-BBB4-20D6B98CD0F5}</Project>
+      <Name>SkinPNA1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add0.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Background.png" />
+    <Content Include="Image\Toolbar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

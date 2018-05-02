@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>&amp;Công cụ</VietNamese>
+    <English>&amp;Tool</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>&amp;Điện tín (Fax) </VietNamese>
+    <English>&amp;Fax</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Hộp thư (Mail)</VietNamese>
+    <English>&amp;Mail box</English>
+  </Item>
+</ConfigsPNA>

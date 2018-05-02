@@ -1,0 +1,280 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7AE77C63-5AC4-4821-B53D-E7489E8C28D9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\Omega.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>OmegaSoft</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>OmegaSoft</RootNamespace>
+    <StartupObject>OmegaSoft.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>OmegaSoft.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>OmegaSoft.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948" />
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.5.20042.160, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Files\XMLConfigs.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <None Include="bin\Files\Langague\XMLLogin.xml" />
+    <None Include="bin\Files\Langague\XMLMain.xml" />
+    <None Include="bin\IconOmega\ToolBar.bmp" />
+    <None Include="bin\IconOmega\Add0.ico" />
+    <None Include="bin\IconOmega\Delete0.ico" />
+    <None Include="bin\IconOmega\Save0.ico" />
+    <None Include="bin\IconOmega\Search0.ico" />
+    <None Include="bin\Files\Langague\OHR\XMLHRCountry.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRCompany.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRDepartment.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRJobTitle.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRLevel.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHREmployee.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRUser.xml" />
+    <None Include="bin\Files\Langague\OUL\XMLULCustomer.xml" />
+    <None Include="bin\Files\Langague\OUL\XMLULSupplier.xml" />
+    <None Include="Resources\Omega.jpg" />
+    <None Include="Resources\Omega.ico" />
+    <None Include="Resources\Frame03.png" />
+    <None Include="Resources\Frame05.png" />
+    <None Include="Resources\Frame07.png" />
+    <None Include="Resources\Frame06.png" />
+    <None Include="Resources\Frame08.png" />
+    <None Include="Resources\Frame04.png" />
+    <None Include="Resources\Frame02.png" />
+    <None Include="Resources\Frame01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\IconOmega\Document3.ico" />
+    <None Include="bin\IconOmega\Update0.ico" />
+    <None Include="bin\IconOmega\Report0.ico" />
+    <None Include="bin\IconOmega\Document0.ico" />
+    <None Include="bin\IconOmega\Update1.ico" />
+    <None Include="bin\IconOmega\Close0.ico" />
+    <None Include="bin\IconOmega\Setting2.ico" />
+    <None Include="bin\IconOmega\Fax0.ico" />
+    <None Include="bin\IconOmega\Mail0.ico" />
+    <None Include="bin\IconOmega\FireFox0.ico" />
+    <None Include="bin\IconOmega\Person4.ico" />
+    <None Include="bin\IconOmega\Other9.ico" />
+    <None Include="bin\IconOmega\Person3.ico" />
+    <None Include="bin\IconOmega\Earth0.ico" />
+    <None Include="bin\IconOmega\Home0.ico" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="bin\IconOmega\Network2.ico" />
+    <None Include="bin\IconOmega\Omega.ico" />
+    <None Include="bin\Images\ChildToolbar.png" />
+    <None Include="bin\Images\Statusbar.png" />
+    <None Include="bin\Images\Toolbar.png" />
+    <None Include="bin\Images\Tree.png" />
+    <None Include="bin\Images\Tree1.png" />
+    <None Include="bin\IconOmega\add.ico" />
+    <None Include="bin\IconOmega\delete.ico" />
+    <None Include="bin\IconOmega\Save.ico" />
+    <None Include="bin\IconOmega\open.ico" />
+    <None Include="bin\IconOmega\preview.ico" />
+    <None Include="bin\IconOmega\Refresh.ico" />
+    <None Include="bin\IconOmega\Search.ico" />
+    <None Include="bin\Files\Langague\Menu\XMLSystem.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTool.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLUltility.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskHR.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLList.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLReport.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLEntertainment.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLHelp.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskPU.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskBU.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskFI.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskAR.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskST.xml" />
+    <None Include="bin\Files\Langague\Menu\XMLTaskME.xml" />
+    <None Include="bin\Files\Langague\XMLAccessRight.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRAccessRight.xml" />
+    <None Include="bin\Files\Langague\OHR\XMLHRChangePass.xml" />
+    <None Include="bin\Files\Langague\OUL\XMLULProject.xml" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\Split01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\clsOmegaSoft\clsOmegaSoft\clsOmegaSoft.vbproj">
+      <Project>{F4545FCD-636C-48D9-A4B9-392A4F7EFA1B}</Project>
+      <Name>clsOmegaSoft</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinPNA1\SkinPNA1\SkinPNA1.vbproj">
+      <Project>{CF8CDAF2-0E1D-42E4-BBB4-20D6B98CD0F5}</Project>
+      <Name>SkinPNA1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinPNA2\SkinPNA2.vbproj">
+      <Project>{644C7BEF-C840-4557-88E9-C72CC0B43B2F}</Project>
+      <Name>SkinPNA2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinPNA\SkinPNA\SkinPNA.vbproj">
+      <Project>{5DF3BE06-426E-4F60-A8D0-FF261E3BE566}</Project>
+      <Name>SkinPNA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clsOmegaSoft1\clsOmegaSoft1.vbproj">
+      <Project>{160908A9-F1AA-432C-A2DE-D275FD03D13D}</Project>
+      <Name>clsOmegaSoft1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Files\Error\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

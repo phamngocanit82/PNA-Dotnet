@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Tác &amp;vụ</VietNamese>
+    <English>&amp;Task</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Phòng &amp;hành chánh nhân sự</VietNamese>
+    <English>&amp;Human resource department</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>&amp;Quốc gia</VietNamese>
+    <English>Coun&amp;try</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>&amp;Công ty</VietNamese>
+    <English>&amp;Company</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>&amp;Phòng ban</VietNamese>
+    <English>&amp;Department</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Chức &amp;vụ</VietNamese>
+    <English>&amp;Job title</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>&amp;Trình độ</VietNamese>
+    <English>&amp;Level</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>&amp;Quản lý nhân viên</VietNamese>
+    <English>&amp;Employee management</English>
+  </Item>
+  <Item>
+    <ID>8</ID>
+    <VietNamese>&amp;Nhân viên</VietNamese>
+    <English>&amp;Employee</English>
+  </Item>
+</ConfigsPNA>

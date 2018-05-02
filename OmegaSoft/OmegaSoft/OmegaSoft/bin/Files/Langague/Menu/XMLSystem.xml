@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>&amp;Hệ thống</VietNamese>
+    <English>&amp;System</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>&amp;Đăng xuất</VietNamese>
+    <English>&amp;Logout</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>&amp;Ngôn ngữ tiếng &amp;anh</VietNamese>
+    <English>&amp;Vietnamese language</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>&amp;Quản lý tài khoản người dùng</VietNamese>
+    <English>&amp;User management</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>&amp;Tài khoản người dùng</VietNamese>
+    <English>User &amp;account</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Thay &amp;đổi mật khẩu</VietNamese>
+    <English>&amp;Change password</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>&amp;Quyền truy cập</VietNamese>
+    <English>&amp;Access right</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>&amp;Thoát</VietNamese>
+    <English>&amp;Exit</English>
+  </Item>
+</ConfigsPNA>

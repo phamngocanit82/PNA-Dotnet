@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+	<Item>
+		<ID>0</ID>
+		<VietNamese>Công ty</VietNamese>
+		<English>Company</English>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<VietNamese>Quốc gia</VietNamese>
+		<English>Country</English>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<VietNamese>Chi nhánh</VietNamese>
+		<English>Branch</English>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<VietNamese>Trụ sở chính</VietNamese>
+		<English>Head office</English>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<VietNamese>Mã công ty</VietNamese>
+		<English>Company code</English>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<VietNamese>Tên công ty</VietNamese>
+		<English>Company name</English>
+	</Item>
+	<Item>
+		<ID>6</ID>
+		<VietNamese>Tên giám đốc</VietNamese>
+		<English>Director name</English>
+	</Item>
+	<Item>
+		<ID>7</ID>
+		<VietNamese>Mã số thuế</VietNamese>
+		<English>Tax code</English>
+	</Item>
+	<Item>
+		<ID>8</ID>
+		<VietNamese>Lĩnh vực kinh doanh</VietNamese>
+		<English>Business activity</English>
+	</Item>
+	<Item>
+		<ID>9</ID>
+		<VietNamese>Số điện thoại</VietNamese>
+		<English>Phone number</English>
+	</Item>
+	<Item>
+		<ID>10</ID>
+		<VietNamese>Điện tín (Fax)</VietNamese>
+		<English>Fax</English>
+	</Item>
+	<Item>
+		<ID>11</ID>
+		<VietNamese>Hộp thư (Email)</VietNamese>
+		<English>Email</English>
+	</Item>
+	<Item>
+		<ID>12</ID>
+		<VietNamese>Trang web</VietNamese>
+		<English>Web site</English>
+	</Item>
+	<Item>
+		<ID>13</ID>
+		<VietNamese>Địa chỉ</VietNamese>
+		<English>Address</English>
+	</Item>
+	<Item>
+		<ID>14</ID>
+		<VietNamese>&amp;Thêm</VietNamese>
+		<English>&amp;Add</English>
+	</Item>
+	<Item>
+		<ID>15</ID>
+		<VietNamese>&amp;Xoá</VietNamese>
+		<English>&amp;Delete</English>
+	</Item>
+	<Item>
+		<ID>16</ID>
+		<VietNamese>   &amp;Cập nhật</VietNamese>
+		<English>   &amp;Update</English>
+	</Item>
+	<Item>
+		<ID>17</ID>
+		<VietNamese>&amp;Lưu</VietNamese>
+		<English>&amp;Save</English>
+	</Item>
+	<Item>
+		<ID>18</ID>
+		<VietNamese>Tìm kiếm</VietNamese>
+		<English>Search</English>
+	</Item>
+	<Item>
+		<ID>19</ID>
+		<VietNamese>Tên quốc gia</VietNamese>
+		<English>Country name</English>
+	</Item>
+	<Item>
+		<ID>20</ID>
+		<VietNamese>Danh sách công ty</VietNamese>
+		<English>Company list</English>
+	</Item>
+	<Item>
+		<ID>21</ID>
+		<VietNamese>Bạn không có quyền thêm</VietNamese>
+		<English>You don't have permit add</English>
+	</Item>
+	<Item>
+		<ID>22</ID>
+		<VietNamese>Bạn không có quyền xoá</VietNamese>
+		<English>You don't have permit delete</English>
+	</Item>
+	<Item>
+		<ID>23</ID>
+		<VietNamese>Bạn không có quyền cập nhật</VietNamese>
+		<English>You don't have permit update</English>
+	</Item>
+	<Item>
+		<ID>24</ID>
+		<VietNamese>Bạn không có quyền lưu</VietNamese>
+		<English>You don't have permit save</English>
+	</Item>
+	<Item>
+		<ID>25</ID>
+		<VietNamese>Bạn có muốn xoá ?</VietNamese>
+		<English>Are you want to delete ?</English>
+	</Item>
+	<Item>
+		<ID>26</ID>
+		<VietNamese>Bạn có muốn lưu ?</VietNamese>
+		<English>Are you want to save ?</English>
+	</Item>
+	<Item>
+		<ID>27</ID>
+		<VietNamese>Mã quốc gia không đuợc trống</VietNamese>
+		<English>Country code don't empty</English>
+	</Item>
+	<Item>
+		<ID>28</ID>
+		<VietNamese>Mã công ty không đuợc trống</VietNamese>
+		<English>Company code don't empty</English>
+	</Item>
+	<Item>
+		<ID>29</ID>
+		<VietNamese>Tên công ty không đuợc trống</VietNamese>
+		<English>Company name don't empty</English>
+	</Item>
+	<Item>
+		<ID>30</ID>
+		<VietNamese>Tên giám đốc không đuợc trống</VietNamese>
+		<English>Director name don't empty</English>
+	</Item>
+	<Item>
+		<ID>31</ID>
+		<VietNamese>Lưu tập tin</VietNamese>
+		<English>Save file</English>
+	</Item>
+	<Item>
+		<ID>32</ID>
+		<VietNamese>Mở tập tin</VietNamese>
+		<English>Open file</English>
+	</Item>
+	<Item>
+		<ID>33</ID>
+		<VietNamese>Hiển thị dữ liệu</VietNamese>
+		<English>Display data</English>
+	</Item>
+	<Item>
+		<ID>34</ID>
+		<VietNamese>Cập nhật dữ liệu</VietNamese>
+		<English>Refesh data</English>
+	</Item>
+	<Item>
+		<ID>35</ID>
+		<VietNamese>Hình ảnh</VietNamese>
+		<English>Picture</English>
+	</Item>
+	<Item>
+		<ID>36</ID>
+		<VietNamese>Mã công ty này đã dùng</VietNamese>
+		<English>This company code used</English>
+	</Item>
+</ConfigsPNA>

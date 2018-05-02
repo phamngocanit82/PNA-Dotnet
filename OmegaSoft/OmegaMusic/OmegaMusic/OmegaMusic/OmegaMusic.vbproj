@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D28DA401-1940-4C2C-A163-C70DF82DA4FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OmegaMusic.My.MyApplication</StartupObject>
+    <RootNamespace>OmegaMusic</RootNamespace>
+    <AssemblyName>MUSIC2008</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>SmartViewCategoryMusic.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MUSIC2008.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MUSIC2008.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\ButtonClose.Designer.vb">
+      <DependentUpon>ButtonClose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonClose.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonMaximize.Designer.vb">
+      <DependentUpon>ButtonMaximize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonMaximize.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonMinimize.Designer.vb">
+      <DependentUpon>ButtonMinimize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonMinimize.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonNext.Designer.vb">
+      <DependentUpon>ButtonNext.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonNext.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonNoSound.Designer.vb">
+      <DependentUpon>ButtonNoSound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonNoSound.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPlayPause.Designer.vb">
+      <DependentUpon>ButtonPlayPause.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPlayPause.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPrevious.Designer.vb">
+      <DependentUpon>ButtonPrevious.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPrevious.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonRepeat.Designer.vb">
+      <DependentUpon>ButtonRepeat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonRepeat.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonShuffle.Designer.vb">
+      <DependentUpon>ButtonShuffle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonShuffle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonStop.Designer.vb">
+      <DependentUpon>ButtonStop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonStop.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonSwitch.Designer.vb">
+      <DependentUpon>ButtonSwitch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonSwitch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonView.Designer.vb">
+      <DependentUpon>ButtonView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonSeek.Designer.vb">
+      <DependentUpon>ButtonSeek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonSeek.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\SlideSeek.Designer.vb">
+      <DependentUpon>SlideSeek.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\SlideSeek.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonClose.resx">
+      <DependentUpon>ButtonClose.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonMaximize.resx">
+      <DependentUpon>ButtonMaximize.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonMinimize.resx">
+      <DependentUpon>ButtonMinimize.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonNext.resx">
+      <DependentUpon>ButtonNext.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonNoSound.resx">
+      <DependentUpon>ButtonNoSound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPlayPause.resx">
+      <DependentUpon>ButtonPlayPause.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPrevious.resx">
+      <DependentUpon>ButtonPrevious.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonRepeat.resx">
+      <DependentUpon>ButtonRepeat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonShuffle.resx">
+      <DependentUpon>ButtonShuffle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonStop.resx">
+      <DependentUpon>ButtonStop.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonSwitch.resx">
+      <DependentUpon>ButtonSwitch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonView.resx">
+      <DependentUpon>ButtonView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\SlideSeek.resx">
+      <DependentUpon>SlideSeek.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonSeek.resx">
+      <DependentUpon>ButtonSeek.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ButtonClose\Close0.png" />
+    <EmbeddedResource Include="Image\ButtonClose\Close1.png" />
+    <EmbeddedResource Include="Image\ButtonClose\Close2.png" />
+    <EmbeddedResource Include="Image\ButtonMaximize\Maximize0.png" />
+    <EmbeddedResource Include="Image\ButtonMaximize\Maximize1.png" />
+    <EmbeddedResource Include="Image\ButtonMaximize\Maximize2.png" />
+    <EmbeddedResource Include="Image\ButtonMinimize\Minimize0.png" />
+    <EmbeddedResource Include="Image\ButtonMinimize\Minimize1.png" />
+    <EmbeddedResource Include="Image\ButtonMinimize\Minimize2.png" />
+    <EmbeddedResource Include="Image\ButtonNext\Next0.png" />
+    <EmbeddedResource Include="Image\ButtonNext\Next1.png" />
+    <EmbeddedResource Include="Image\ButtonNext\Next2.png" />
+    <EmbeddedResource Include="Image\ButtonNoSound\NoSound0.png" />
+    <EmbeddedResource Include="Image\ButtonNoSound\NoSound1.png" />
+    <EmbeddedResource Include="Image\ButtonNoSound\NoSound2.png" />
+    <EmbeddedResource Include="Image\ButtonPause\Pause0.png" />
+    <EmbeddedResource Include="Image\ButtonPause\Pause1.png" />
+    <EmbeddedResource Include="Image\ButtonPause\Pause2.png" />
+    <EmbeddedResource Include="Image\ButtonPlay\Play0.png" />
+    <EmbeddedResource Include="Image\ButtonPlay\Play1.png" />
+    <EmbeddedResource Include="Image\ButtonPlay\Play2.png" />
+    <EmbeddedResource Include="Image\ButtonPrevious\Previous0.png" />
+    <EmbeddedResource Include="Image\ButtonPrevious\Previous1.png" />
+    <EmbeddedResource Include="Image\ButtonPrevious\Previous2.png" />
+    <EmbeddedResource Include="Image\ButtonRepeat\Repeat0.png" />
+    <EmbeddedResource Include="Image\ButtonRepeat\Repeat1.png" />
+    <EmbeddedResource Include="Image\ButtonRepeat\Repeat2.png" />
+    <EmbeddedResource Include="Image\ButtonSeek\Seek0.png" />
+    <EmbeddedResource Include="Image\ButtonSeek\Seek1.png" />
+    <EmbeddedResource Include="Image\ButtonSeek\Seek2.png" />
+    <EmbeddedResource Include="Image\ButtonShuffle\Shuffle0.png" />
+    <EmbeddedResource Include="Image\ButtonShuffle\Shuffle1.png" />
+    <EmbeddedResource Include="Image\ButtonShuffle\Shuffle2.png" />
+    <EmbeddedResource Include="Image\ButtonStop\Stop0.png" />
+    <EmbeddedResource Include="Image\ButtonStop\Stop1.png" />
+    <EmbeddedResource Include="Image\ButtonStop\Stop2.png" />
+    <EmbeddedResource Include="Image\ButtonSwitch\Switch0.png" />
+    <EmbeddedResource Include="Image\ButtonSwitch\Switch1.png" />
+    <EmbeddedResource Include="Image\ButtonSwitch\Switch2.png" />
+    <EmbeddedResource Include="Image\ButtonView\View0.png" />
+    <EmbeddedResource Include="Image\ButtonView\View1.png" />
+    <EmbeddedResource Include="Image\ButtonView\View2.png" />
+    <EmbeddedResource Include="Image\Seek\Seek3.png" />
+    <EmbeddedResource Include="Image\Seek\Seek4.png" />
+    <EmbeddedResource Include="Image\Skin\skin0.png" />
+    <EmbeddedResource Include="Image\Skin\Skin1.png" />
+    <EmbeddedResource Include="Image\Skin\skin2.png" />
+    <EmbeddedResource Include="Image\Skin\skin3.png" />
+    <Content Include="SmartViewCategoryMusic.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

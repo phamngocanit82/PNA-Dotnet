@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>&amp;Tiện ích</VietNamese>
+    <English>&amp;Ultility</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>&amp;Công trình</VietNamese>
+    <English>&amp;Project</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>&amp;Khách hàng</VietNamese>
+    <English>&amp;Customer</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>&amp;Nhà cung cấp</VietNamese>
+    <English>&amp;Supplier</English>
+  </Item>
+</ConfigsPNA>

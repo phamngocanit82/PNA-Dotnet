@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Hệ thống</VietNamese>
+    <English>System</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Đăng xuất</VietNamese>
+    <English>Logout</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Ngôn ngữ tiếng anh</VietNamese>
+    <English>Vietnamese language</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>Quản lý tài khoản người dùng</VietNamese>
+    <English>User management</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>Tài khoản người dùng</VietNamese>
+    <English>User account</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Thay đổi mật khẩu</VietNamese>
+    <English>Change password</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Quyền truy cập</VietNamese>
+    <English>Access right</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Thoát</VietNamese>
+    <English>Exit</English>
+  </Item>
+  <Item>
+    <ID>8</ID>
+    <VietNamese>Công cụ</VietNamese>
+    <English>Tool</English>
+  </Item>
+  <Item>
+    <ID>9</ID>
+    <VietNamese>Điện tín (Fax) </VietNamese>
+    <English>Fax</English>
+  </Item>
+  <Item>
+    <ID>10</ID>
+    <VietNamese>Hộp thư (Mail)</VietNamese>
+    <English>Mail box</English>
+  </Item>
+  <Item>
+    <ID>11</ID>
+    <VietNamese>Tiện ích</VietNamese>
+    <English>Ultility</English>
+  </Item>
+  <Item>
+    <ID>12</ID>
+    <VietNamese>Công trình</VietNamese>
+    <English>Project</English>
+  </Item>
+  <Item>
+    <ID>13</ID>
+    <VietNamese>Khách hàng</VietNamese>
+    <English>Customer</English>
+  </Item>
+  <Item>
+    <ID>14</ID>
+    <VietNamese>Nhà cung cấp</VietNamese>
+    <English>Supplier</English>
+  </Item>
+  <Item>
+    <ID>15</ID>
+    <VietNamese>Tác vụ</VietNamese>
+    <English>Task</English>
+  </Item>
+  <Item>
+    <ID>16</ID>
+    <VietNamese>Phòng hành chánh nhân sự</VietNamese>
+    <English>Human resource department</English>
+  </Item>
+  <Item>
+    <ID>17</ID>
+    <VietNamese>Quốc gia</VietNamese>
+    <English>Country</English>
+  </Item>
+  <Item>
+    <ID>18</ID>
+    <VietNamese>Công ty</VietNamese>
+    <English>Company</English>
+  </Item>
+  <Item>
+    <ID>19</ID>
+    <VietNamese>Phòng ban</VietNamese>
+    <English>Department</English>
+  </Item>
+  <Item>
+    <ID>20</ID>
+    <VietNamese>Chức vụ</VietNamese>
+    <English>Job title</English>
+  </Item>
+  <Item>
+    <ID>21</ID>
+    <VietNamese>Trình độ</VietNamese>
+    <English>Level</English>
+  </Item>
+  <Item>
+    <ID>22</ID>
+    <VietNamese>Quản lý nhân viên</VietNamese>
+    <English>Employee management</English>
+  </Item>
+  <Item>
+    <ID>23</ID>
+    <VietNamese>Nhân viên</VietNamese>
+    <English>Employee</English>
+  </Item>
+  <Item>
+    <ID>24</ID>
+    <VietNamese>Phòng kinh doanh</VietNamese>
+    <English>Bussiness department</English>
+  </Item>
+  <Item>
+    <ID>25</ID>
+    <VietNamese>Phòng kết cấu</VietNamese>
+    <English>Constructure department</English>
+  </Item>
+  <Item>
+    <ID>26</ID>
+    <VietNamese>Phòng kiến trúc</VietNamese>
+    <English>Architecture department</English>
+  </Item>
+  <Item>
+    <ID>27</ID>
+    <VietNamese>Phòng cơ điện</VietNamese>
+    <English>ME department</English>
+  </Item>
+  <Item>
+    <ID>28</ID>
+    <VietNamese>Phòng mua bán</VietNamese>
+    <English>Purchase department</English>
+  </Item>
+  <Item>
+    <ID>29</ID>
+    <VietNamese>Phòng tài chánh kế toán</VietNamese>
+    <English>Financial department</English>
+  </Item>
+</ConfigsPNA>

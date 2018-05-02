@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>phần mềm công ty Omega</VietNamese>
+    <English>omega soft</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Kết thúc</VietNamese>
+    <English>Close</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Phóng to</VietNamese>
+    <English>Maximize</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>Thu nhỏ</VietNamese>
+    <English>Minimize</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>Khôi phục</VietNamese>
+    <English>Restore</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Bạn có muốn thoát chương trình ?</VietNamese>
+    <English>Are you sure exit ?</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>&amp;Tác vụ</VietNamese>
+    <English>&amp;Task</English>
+  </Item>
+</ConfigsPNA>

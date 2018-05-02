@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DataRoot>
+  <Omega>
+    <ID>0</ID>
+    <VietNamese>Chủ nhật</VietNamese>
+    <English>Sunday</English>
+  </Omega>
+  <Omega>
+    <ID>1</ID>
+    <VietNamese>Thứ hai</VietNamese>
+    <English>Monday</English>
+  </Omega>
+  <Omega>
+    <ID>2</ID>
+    <VietNamese>Thứ ba</VietNamese>
+    <English>Tuesday</English>
+  </Omega>
+  <Omega>
+    <ID>3</ID>
+    <VietNamese>Thứ tư</VietNamese>
+    <English>Wednesday</English>
+  </Omega>
+  <Omega>
+    <ID>4</ID>
+    <VietNamese>Thứ năm</VietNamese>
+    <English>Thursday</English>
+  </Omega>
+  <Omega>
+    <ID>5</ID>
+    <VietNamese>Thứ sáu</VietNamese>
+    <English>Friday</English>
+  </Omega>
+  <Omega>
+    <ID>6</ID>
+    <VietNamese>Thứ bảy</VietNamese>
+    <English>Saturday</English>
+  </Omega>
+  <Omega>
+    <ID>7</ID>
+    <VietNamese>Tháng 1</VietNamese>
+    <English>January</English>
+  </Omega>
+  <Omega>
+    <ID>8</ID>
+    <VietNamese>Tháng 2</VietNamese>
+    <English>February</English>
+  </Omega>
+  <Omega>
+    <ID>9</ID>
+    <VietNamese>Tháng 3</VietNamese>
+    <English>March</English>
+  </Omega>
+  <Omega>
+    <ID>10</ID>
+    <VietNamese>Tháng 4</VietNamese>
+    <English>April</English>
+  </Omega>
+  <Omega>
+    <ID>11</ID>
+    <VietNamese>Tháng 5</VietNamese>
+    <English>May</English>
+  </Omega>
+  <Omega>
+    <ID>12</ID>
+    <VietNamese>Tháng 6</VietNamese>
+    <English>June</English>
+  </Omega>
+  <Omega>
+    <ID>13</ID>
+    <VietNamese>Tháng 7</VietNamese>
+    <English>July</English>
+  </Omega>
+  <Omega>
+    <ID>14</ID>
+    <VietNamese>Tháng 8</VietNamese>
+    <English>August</English>
+  </Omega>
+  <Omega>
+    <ID>15</ID>
+    <VietNamese>Tháng 9</VietNamese>
+    <English>September</English>
+  </Omega>
+  <Omega>
+    <ID>16</ID>
+    <VietNamese>Tháng 10</VietNamese>
+    <English>October</English>
+  </Omega>
+  <Omega>
+    <ID>17</ID>
+    <VietNamese>Tháng 11</VietNamese>
+    <English>November</English>
+  </Omega>
+  <Omega>
+    <ID>18</ID>
+    <VietNamese>Tháng 12</VietNamese>
+    <English>December</English>
+  </Omega>
+  <Omega>
+    <ID>19</ID>
+    <VietNamese>Ngày</VietNamese>
+    <English>Day</English>
+  </Omega>
+  <Omega>
+    <ID>20</ID>
+    <VietNamese>Tháng</VietNamese>
+    <English>Month</English>
+  </Omega>
+  <Omega>
+    <ID>21</ID>
+    <VietNamese>Năm</VietNamese>
+    <English>Year</English>
+  </Omega>
+</DataRoot>

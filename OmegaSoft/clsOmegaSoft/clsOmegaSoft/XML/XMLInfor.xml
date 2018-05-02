@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese> Thông tin</VietNamese>
+    <English>Information</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese> Thông báo lỗi</VietNamese>
+    <English>Error infor</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Đóng</VietNamese>
+    <English>Close</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>&amp;Đồng ý</VietNamese>
+    <English>&amp;Ok</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>&amp;Huỷ bỏ</VietNamese>
+    <English>&amp;No</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>&amp;Chấp nhận</VietNamese>
+    <English>&amp;Yes</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Lỗi chương trình vui lòng liên hệ administrator</VietNamese>
+    <English>Software error please to contact administrator</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Chi tiết</VietNamese>
+    <English>Detail</English>
+  </Item>
+</ConfigsPNA>

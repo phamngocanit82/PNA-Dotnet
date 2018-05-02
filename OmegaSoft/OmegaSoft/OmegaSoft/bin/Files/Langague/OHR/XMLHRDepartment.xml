@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+	<Item>
+		<ID>0</ID>
+		<VietNamese>Phòng ban</VietNamese>
+		<English>Department</English>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<VietNamese>Công ty</VietNamese>
+		<English>Company</English>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<VietNamese>Mã phòng ban</VietNamese>
+		<English>Department code</English>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<VietNamese>Tên phòng ban</VietNamese>
+		<English>Department name</English>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<VietNamese>Ghi chú</VietNamese>
+		<English>Describle</English>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<VietNamese>&amp;Thêm</VietNamese>
+		<English>&amp;Add</English>
+	</Item>
+	<Item>
+		<ID>6</ID>
+		<VietNamese>&amp;Xoá</VietNamese>
+		<English>&amp;Delete</English>
+	</Item>
+	<Item>
+		<ID>7</ID>
+		<VietNamese>   &amp;Cập nhật</VietNamese>
+		<English>&amp;Update</English>
+	</Item>
+	<Item>
+		<ID>8</ID>
+		<VietNamese>&amp;Lưu</VietNamese>
+		<English>&amp;Save</English>
+	</Item>
+	<Item>
+		<ID>9</ID>
+		<VietNamese>Tìm kiếm</VietNamese>
+		<English>Search</English>
+	</Item>
+	<Item>
+		<ID>10</ID>
+		<VietNamese>Tên công ty</VietNamese>
+		<English>Company name</English>
+	</Item>
+	<Item>
+		<ID>11</ID>
+		<VietNamese>Danh sách phòng ban</VietNamese>
+		<English>Department list</English>
+	</Item>
+	<Item>
+		<ID>12</ID>
+		<VietNamese>Bạn không có quyền thêm</VietNamese>
+		<English>You don't have permit add</English>
+	</Item>
+	<Item>
+		<ID>13</ID>
+		<VietNamese>Bạn không có quyền xoá</VietNamese>
+		<English>You don't have permit delete</English>
+	</Item>
+	<Item>
+		<ID>14</ID>
+		<VietNamese>Bạn không có quyền cập nhật</VietNamese>
+		<English>You don't have permit update</English>
+	</Item>
+	<Item>
+		<ID>15</ID>
+		<VietNamese>Bạn không có quyền lưu</VietNamese>
+		<English>You don't have permit save</English>
+	</Item>
+	<Item>
+		<ID>16</ID>
+		<VietNamese>Bạn có muốn xoá ?</VietNamese>
+		<English>Are you want to delete ?</English>
+	</Item>
+	<Item>
+		<ID>17</ID>
+		<VietNamese>Bạn có muốn lưu ?</VietNamese>
+		<English>Are you want to save ?</English>
+	</Item>
+	<Item>
+		<ID>18</ID>
+		<VietNamese>Mã công ty không đuợc trống</VietNamese>
+		<English>Company code don't empty</English>
+	</Item>
+	<Item>
+		<ID>19</ID>
+		<VietNamese>Mã phòng ban không đuợc trống</VietNamese>
+		<English>Department code don't empty</English>
+	</Item>
+	<Item>
+		<ID>20</ID>
+		<VietNamese>Tên phòng ban không đuợc trống</VietNamese>
+		<English>Department name don't empty</English>
+	</Item>
+	<Item>
+		<ID>21</ID>
+		<VietNamese>Lưu tập tin</VietNamese>
+		<English>Save file</English>
+	</Item>
+	<Item>
+		<ID>22</ID>
+		<VietNamese>Mở tập tin</VietNamese>
+		<English>Open file</English>
+	</Item>
+	<Item>
+		<ID>23</ID>
+		<VietNamese>Hiển thị dữ liệu</VietNamese>
+		<English>Display data</English>
+	</Item>
+	<Item>
+		<ID>24</ID>
+		<VietNamese>Cập nhật dữ liệu</VietNamese>
+		<English>Refesh data</English>
+	</Item>
+	<Item>
+		<ID>25</ID>
+		<VietNamese>Mã phòng ban này đã dùng</VietNamese>
+		<English>This department code used</English>
+	</Item>
+</ConfigsPNA>

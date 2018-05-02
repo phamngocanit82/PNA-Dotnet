@@ -1,0 +1,13 @@
+bin\Debug\OmegaSlidebar.exe
+bin\Debug\OmegaSlidebar.pdb
+bin\Debug\OmegaSlidebar.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OmegaSlidebar.Resources.resources
+obj\Debug\OmegaSlidebar.vbproj.GenerateResource.Cache
+obj\Debug\OmegaSlidebar.exe
+obj\Debug\OmegaSlidebar.xml
+obj\Debug\OmegaSlidebar.pdb
+bin\Debug\SkinPNA1.dll
+bin\Debug\SkinPNA1.pdb
+bin\Debug\SkinPNA1.xml
+obj\Debug\OmegaSlidebar.frmMain.resources

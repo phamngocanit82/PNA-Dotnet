@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF8CDAF2-0E1D-42E4-BBB4-20D6B98CD0F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OmegaSkins1</RootNamespace>
+    <AssemblyName>SkinPNA1</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionStrict>Off</OptionStrict>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SkinPNA1.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SkinPNA1.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\ButtonFormChildPNA1.Designer.vb">
+      <DependentUpon>ButtonFormChildPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonFormChildPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonFormChildPNA2.Designer.vb">
+      <DependentUpon>ButtonFormChildPNA2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonFormChildPNA2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonFormChildPNA3.Designer.vb">
+      <DependentUpon>ButtonFormChildPNA3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonFormChildPNA3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonFormMainPNA1.Designer.vb">
+      <DependentUpon>ButtonFormMainPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonFormMainPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonMenuPNA1.Designer.vb">
+      <DependentUpon>ButtonMenuPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonMenuPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPNA1.Designer.vb">
+      <DependentUpon>ButtonPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPNA2.Designer.vb">
+      <DependentUpon>ButtonPNA2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPNA2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPNA3.Designer.vb">
+      <DependentUpon>ButtonPNA3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPNA3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPNA4.Designer.vb">
+      <DependentUpon>ButtonPNA4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPNA4.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\CalculatorPNA1.Designer.vb">
+      <DependentUpon>CalculatorPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\CalculatorPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\CalendarPNA1.Designer.vb">
+      <DependentUpon>CalendarPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\CalendarPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\CheckBoxPNA1.Designer.vb">
+      <DependentUpon>CheckBoxPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\CheckBoxPNA1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\ClockPNA1.Designer.vb">
+      <DependentUpon>ClockPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ClockPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonArrowPNA1.Designer.vb">
+      <DependentUpon>ButtonArrowPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonArrowPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\LinePNA2.Designer.vb">
+      <DependentUpon>LinePNA2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\LinePNA2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FrmSlidebar.Designer.vb">
+      <DependentUpon>FrmSlidebar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmSlidebar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\LinePNA1.Designer.vb">
+      <DependentUpon>LinePNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\LinePNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\RadioButtonPNA1.Designer.vb">
+      <DependentUpon>RadioButtonPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\RadioButtonPNA1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\SildeBarPNA1.Designer.vb">
+      <DependentUpon>SildeBarPNA1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\SildeBarPNA1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TextBoxPNA.Designer.vb">
+      <DependentUpon>TextBoxPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TextBoxPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonFormChildPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonFormChildPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonFormChildPNA2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonFormChildPNA2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonFormChildPNA3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonFormChildPNA3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonFormMainPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonFormMainPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonMenuPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonMenuPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPNA2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonPNA2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPNA3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonPNA3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPNA4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonPNA4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\CalculatorPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalculatorPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\CalendarPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\CheckBoxPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckBoxPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ClockPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClockPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonArrowPNA1.resx">
+      <DependentUpon>ButtonArrowPNA1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\LinePNA2.resx">
+      <DependentUpon>LinePNA2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FrmSlidebar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSlidebar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\LinePNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LinePNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\RadioButtonPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RadioButtonPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\SildeBarPNA1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SildeBarPNA1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TextBoxPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextBoxPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\AClose01.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\AClose02.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\AClose03.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ALeft01.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ALeft02.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ALeft03.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ARight01.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ARight02.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA3\ARight03.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close01.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close02.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close03.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close04.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close05.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close06.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close07.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close08.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close09.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close10.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close11.png" />
+    <EmbeddedResource Include="Image\ButtonFormChildPNA1\Close12.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm01.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm02.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm03.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm04.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm05.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm06.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm07.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm08.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\ButtonForm09.png" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Close1.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Close2.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Close3.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Maximize1.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Maximize2.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Maximize3.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Minimize1.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Minimize2.bmp" />
+    <EmbeddedResource Include="Image\ButtonFormMainPNA1\Minimize3.bmp" />
+    <EmbeddedResource Include="Image\ButtonMenuPNA1\ButtonMenu01.png" />
+    <EmbeddedResource Include="Image\ButtonMenuPNA1\ButtonMenu02.png" />
+    <EmbeddedResource Include="Image\ButtonMenuPNA1\ButtonMenu03.png" />
+    <EmbeddedResource Include="Image\ButtonPNA4\ButtonSlide01.png" />
+    <EmbeddedResource Include="Image\ButtonPNA4\ButtonSlide02.png" />
+    <EmbeddedResource Include="Image\ButtonPNA4\ButtonSlide03.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor01.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor02.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor03.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor04.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor05.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor06.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor07.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor08.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor09.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor10.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor11.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor12.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor13.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor14.png" />
+    <EmbeddedResource Include="Image\ButtonPNA1\ButtonInfor15.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox01.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox02.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox03.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox04.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox05.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox06.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox07.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox08.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox09.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox10.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox11.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox12.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox13.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox14.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox15.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox16.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox17.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox18.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox19.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox20.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox21.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox22.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox23.png" />
+    <EmbeddedResource Include="Image\CheckBoxPNA1\CheckBox24.png" />
+    <EmbeddedResource Include="Image\FormSlideBar\Calendar.png" />
+    <EmbeddedResource Include="Image\FormSlideBar\FormSlideBar.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton01.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton02.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton03.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton04.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton05.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton06.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton07.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton08.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton09.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton10.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton11.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton12.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton13.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton14.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton15.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton16.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton17.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton18.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton19.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton20.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton21.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton22.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton23.png" />
+    <EmbeddedResource Include="Image\RadioButtonPNA1\RadioButton24.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal01.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal02.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal03.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal04.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal05.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal06.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal07.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal08.png" />
+    <EmbeddedResource Include="Image\ButtonPNA2\Cal09.png" />
+    <EmbeddedResource Include="Image\ButtonPNA3\Resize01.png" />
+    <EmbeddedResource Include="Image\ButtonPNA3\Resize02.png" />
+    <EmbeddedResource Include="Image\ButtonPNA3\Resize03.png" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonFormChildPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonFormChildPNA2.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonFormChildPNA3.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonMenuPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonPNA2.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonPNA3.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\CalculatorPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\LinePNA1.bmp" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow01.png" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow02.png" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow03.png" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow04.png" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow05.png" />
+    <EmbeddedResource Include="Image\ButtonArrowPNA1\Arrow06.png" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonArrowPNA1.bmp" />
+    <Content Include="Image\Toolbox\ButtonFormMainPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\CheckBoxPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\RadioButtonPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ButtonPNA4.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\CalendarPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\ClockPNA1.bmp" />
+    <EmbeddedResource Include="Image\Toolbox\FrmSlidebar.bmp" />
+    <Content Include="Image\Toolbox\SildeBarPNA1.bmp" />
+    <None Include="Resources\Calculator.png" />
+    <None Include="Resources\lich.png" />
+    <None Include="Resources\FormSlideBar.png" />
+    <EmbeddedResource Include="Image\Toolbox\TextBoxPNA.bmp" />
+    <Content Include="XML\XMLButton.xml">
+      <SubType>
+      </SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{644C7BEF-C840-4557-88E9-C72CC0B43B2F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>OmegaSkins2</RootNamespace>
+    <AssemblyName>SkinPNA2</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SkinPNA2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SkinPNA2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\ButtonClose.Designer.vb">
+      <DependentUpon>ButtonClose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonClose.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonMaximize.Designer.vb">
+      <DependentUpon>ButtonMaximize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonMaximize.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonMinimize.Designer.vb">
+      <DependentUpon>ButtonMinimize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonMinimize.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonNext.Designer.vb">
+      <DependentUpon>ButtonNext.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonNext.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonLogoOk.Designer.vb">
+      <DependentUpon>ButtonLogoOk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonLogoOk.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonTabPNA.Designer.vb">
+      <DependentUpon>ButtonTabPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonTabPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonPrevious.Designer.vb">
+      <DependentUpon>ButtonPrevious.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonPrevious.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonCloseProcess.Designer.vb">
+      <DependentUpon>ButtonCloseProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonCloseProcess.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ButtonLogoClose.Designer.vb">
+      <DependentUpon>ButtonLogoClose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ButtonLogoClose.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FrmLogoPNA.Designer.vb">
+      <DependentUpon>FrmLogoPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmLogoPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FrmProcessPNA.Designer.vb">
+      <DependentUpon>FrmProcessPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmProcessPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ProcessBarPNA.Designer.vb">
+      <DependentUpon>ProcessBarPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ProcessBarPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\RichtextPNA.Designer.vb">
+      <DependentUpon>RichtextPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\RichtextPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TabControPNA.Designer.vb">
+      <DependentUpon>TabControPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TabControPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FrmFlashPNA.Designer.vb">
+      <DependentUpon>FrmFlashPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FrmFlashPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\LblFrmFlashPNA.Designer.vb">
+      <DependentUpon>LblFrmFlashPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\LblFrmFlashPNA.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\frmFind.Designer.vb">
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\frmFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Component\frmFindReplace.Designer.vb">
+      <DependentUpon>frmFindReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Component\frmFindReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonTabPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonTabPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TabControPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabControPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\ButtonClose.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonClose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonMaximize.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonMaximize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonMinimize.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonMinimize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonNext.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonNext.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonLogoOk.resx">
+      <DependentUpon>ButtonLogoOk.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonPrevious.resx">
+      <DependentUpon>ButtonPrevious.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonCloseProcess.resx">
+      <DependentUpon>ButtonCloseProcess.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ButtonLogoClose.resx">
+      <DependentUpon>ButtonLogoClose.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\frmFind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\frmFindReplace.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFindReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FrmFlashPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFlashPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FrmLogoPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogoPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FrmProcessPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProcessPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\LblFrmFlashPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LblFrmFlashPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ProcessBarPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProcessBarPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\RichtextPNA.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichtextPNA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab02.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab03.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab04.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab05.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab06.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab07.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab08.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab09.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab10.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab11.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab12.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab13.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab14.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab15.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab16.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab17.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab18.png" />
+    <EmbeddedResource Include="Image\ButtonTab\ButtonTab01.png" />
+    <EmbeddedResource Include="Image\FormProcess\FormProcess01.png" />
+    <EmbeddedResource Include="Image\FormProcess\FormProcess02.png" />
+    <EmbeddedResource Include="Image\FormProcess\FormProcess03.png" />
+    <Content Include="Image\FormLogo\Background.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo01.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo02.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo03.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo04.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo05.png" />
+    <EmbeddedResource Include="Image\FormLogo\FormLogo06.png" />
+    <Content Include="Image\Richtext\Find.png" />
+    <Content Include="Image\ButtonTab\1.png" />
+    <Content Include="Image\ButtonTab\2.png" />
+    <Content Include="Image\ButtonTab\3.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash01.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash02.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash03.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash04.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash05.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash06.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash07.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash08.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash09.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash10.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash11.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash12.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash13.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash14.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash15.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash16.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash17.png" />
+    <EmbeddedResource Include="Image\FormFlash\FormFlash18.png" />
+    <EmbeddedResource Include="Image\FormProcess\FormProcess04.png" />
+    <EmbeddedResource Include="Image\FormProcess\FormProcess05.png" />
+    <Content Include="Image\FormFlash\Background.png" />
+    <Content Include="Image\FormProcess\Background.jpg" />
+    <Content Include="Image\Richtext\Left Top.png" />
+    <Content Include="Image\Richtext\BottomMain.png" />
+    <Content Include="Image\Richtext\LeftBottom.png" />
+    <Content Include="Image\Richtext\LeftMain.png" />
+    <Content Include="Image\Richtext\LeftTop.png" />
+    <Content Include="Image\Richtext\RightBottom.png" />
+    <Content Include="Image\Richtext\RightMain.png" />
+    <Content Include="Image\Richtext\TopMain.png" />
+    <Content Include="Image\Richtext\TopRight.png" />
+    <Content Include="Image\TabControl\BottomMain.png" />
+    <Content Include="Image\TabControl\LeftBottom.png" />
+    <Content Include="Image\TabControl\LeftMain1.png" />
+    <Content Include="Image\TabControl\LeftMain2.png" />
+    <Content Include="Image\TabControl\LeftTop.png" />
+    <Content Include="Image\TabControl\RightBottom.png" />
+    <Content Include="Image\TabControl\RightMain1.png" />
+    <Content Include="Image\TabControl\RightMain2.png" />
+    <Content Include="Image\TabControl\RightTop.png" />
+    <Content Include="Image\TabControl\TopMain.png" />
+    <Content Include="Image\Richtext\Top Main.png" />
+    <Content Include="Image\Richtext\Top Right.png" />
+    <None Include="Resources\tbrColor.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SkinPNA1\SkinPNA1\SkinPNA1.vbproj">
+      <Project>{CF8CDAF2-0E1D-42E4-BBB4-20D6B98CD0F5}</Project>
+      <Name>SkinPNA1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XML\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

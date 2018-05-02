@@ -1,0 +1,3 @@
+D:\Project\OmegaSoft\OmegaSoft\bin\OmegaSoft.exe.config
+D:\Project\OmegaSoft\OmegaSoft\obj\Release\OmegaSoft.exe
+D:\Project\OmegaSoft\OmegaSoft\obj\Release\OmegaSoft.xml

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+	<Item>
+		<ID>0</ID>
+		<VietNamese>Đăng nhập</VietNamese>
+		<English>Login</English>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<VietNamese>&amp;Tên đăng nhập</VietNamese>
+		<English>&amp;User name</English>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<VietNamese>&amp;Mật khẩu</VietNamese>
+		<English>&amp;Password</English>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<VietNamese>&amp;Ghi nhớ tên đăng nhập</VietNamese>
+		<English>&amp;Remember user name</English>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<VietNamese>&amp;Đăng nhập</VietNamese>
+		<English>&amp;Login</English>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<VietNamese>&amp;Thoát</VietNamese>
+		<English>&amp;Exit</English>
+	</Item>
+
+</ConfigsPNA>

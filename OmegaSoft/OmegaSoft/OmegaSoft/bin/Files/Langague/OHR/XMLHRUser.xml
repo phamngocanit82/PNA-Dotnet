@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Tài khoản người dùng</VietNamese>
+    <English>User account</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Nhân viên</VietNamese>
+    <English>Employee</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Công ty</VietNamese>
+    <English>Company</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>Phòng ban</VietNamese>
+    <English>Department</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>Chức vụ</VietNamese>
+    <English>Job title</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Tên đăng nhập</VietNamese>
+    <English>User name</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Mật khẩu</VietNamese>
+    <English>Password</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Nhập lại mật khẩu</VietNamese>
+    <English>Confirm password</English>
+  </Item>
+  <Item>
+    <ID>8</ID>
+    <VietNamese>&amp;Thêm</VietNamese>
+    <English>&amp;Add</English>
+  </Item>
+  <Item>
+    <ID>9</ID>
+    <VietNamese>&amp;Xoá</VietNamese>
+    <English>&amp;Delete</English>
+  </Item>
+  <Item>
+    <ID>10</ID>
+    <VietNamese>   &amp;Cập nhật</VietNamese>
+    <English>   &amp;Update</English>
+  </Item>
+  <Item>
+    <ID>11</ID>
+    <VietNamese>&amp;Lưu</VietNamese>
+    <English>&amp;Save</English>
+  </Item>
+  <Item>
+    <ID>12</ID>
+    <VietNamese>Tìm kiếm</VietNamese>
+    <English>Search</English>
+  </Item>
+  <Item>
+    <ID>13</ID>
+    <VietNamese>Tên nhân viên</VietNamese>
+    <English>Employee name</English>
+  </Item>
+  <Item>
+    <ID>14</ID>
+    <VietNamese>Danh sách người dùng</VietNamese>
+    <English>User list</English>
+  </Item>
+  <Item>
+    <ID>15</ID>
+    <VietNamese>Bạn không có quyền thêm</VietNamese>
+    <English>You don't have permit add</English>
+  </Item>
+  <Item>
+    <ID>16</ID>
+    <VietNamese>Bạn không có quyền xoá</VietNamese>
+    <English>You don't have permit delete</English>
+  </Item>
+  <Item>
+    <ID>17</ID>
+    <VietNamese>Bạn không có quyền cập nhật</VietNamese>
+    <English>You don't have permit update</English>
+  </Item>
+  <Item>
+    <ID>18</ID>
+    <VietNamese>Bạn không có quyền lưu</VietNamese>
+    <English>You don't have permit save</English>
+  </Item>
+  <Item>
+    <ID>19</ID>
+    <VietNamese>Bạn có muốn xoá ?</VietNamese>
+    <English>Are you want to delete ?</English>
+  </Item>
+  <Item>
+    <ID>20</ID>
+    <VietNamese>Bạn có muốn lưu ?</VietNamese>
+    <English>Are you want to save ?</English>
+  </Item>
+  <Item>
+    <ID>21</ID>
+    <VietNamese>Mã nhân viên không đuợc trống</VietNamese>
+    <English>Employee code don't empty</English>
+  </Item>
+  <Item>
+    <ID>22</ID>
+    <VietNamese>Tên đăng nhập không đuợc trống</VietNamese>
+    <English>User name don't empty</English>
+  </Item>
+  <Item>
+    <ID>23</ID>
+    <VietNamese>Mật khẩu không đuợc trống</VietNamese>
+    <English>Password don't empty</English>
+  </Item>
+  <Item>
+    <VietNamese>Lưu tập tin</VietNamese>
+    <English>Save file</English>
+  </Item>
+  <Item>
+    <VietNamese>Mở tập tin</VietNamese>
+    <English>Open file</English>
+  </Item>
+  <Item>
+    <VietNamese>Hiển thị dữ liệu</VietNamese>
+    <English>Display data</English>
+  </Item>
+  <Item>
+    <VietNamese>Cập nhật dữ liệu</VietNamese>
+    <English>Refesh data</English>
+  </Item>
+  <Item>
+    <VietNamese>Mã nhân viên này đã dùng</VietNamese>
+    <English>This employee code used</English>
+  </Item>
+</ConfigsPNA>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DateTimePNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Tháng giêng</VietNamese>
+    <English>January</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Tháng hai</VietNamese>
+    <English>Frebruary</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Tháng ba</VietNamese>
+    <English>March</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>Tháng tư</VietNamese>
+    <English>April</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>Tháng năm</VietNamese>
+    <English>May</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Tháng sáu</VietNamese>
+    <English>June</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Tháng bảy</VietNamese>
+    <English>July</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Tháng tám</VietNamese>
+    <English>August</English>
+  </Item>
+  <Item>
+    <ID>8</ID>
+    <VietNamese>Tháng chín</VietNamese>
+    <English>September</English>
+  </Item>
+  <Item>
+    <ID>9</ID>
+    <VietNamese>Tháng mười</VietNamese>
+    <English>October</English>
+  </Item>
+  <Item>
+    <ID>10</ID>
+    <VietNamese>Tháng mười một</VietNamese>
+    <English>November</English>
+  </Item>
+  <Item>
+    <ID>11</ID>
+    <VietNamese>Tháng mười hai</VietNamese>
+    <English>December</English>
+  </Item>
+  <Item>
+    <ID>12</ID>
+    <VietNamese>Hai</VietNamese>
+    <English>Mon</English>
+  </Item>
+  <Item>
+    <ID>13</ID>
+    <VietNamese>Ba</VietNamese>
+    <English>Tue</English>
+  </Item>
+  <Item>
+    <ID>14</ID>
+    <VietNamese>Tư</VietNamese>
+    <English>Web</English>
+  </Item>
+  <Item>
+    <ID>15</ID>
+    <VietNamese>Năm</VietNamese>
+    <English>Thu</English>
+  </Item>
+  <Item>
+    <ID>16</ID>
+    <VietNamese>Sáu</VietNamese>
+    <English>Fri</English>
+  </Item>
+  <Item>
+    <ID>17</ID>
+    <VietNamese>Bảy</VietNamese>
+    <English>Sat</English>
+  </Item>
+  <Item>
+    <ID>18</ID>
+    <VietNamese>CN</VietNamese>
+    <English>Sun</English>
+  </Item>
+  <Item>
+    <ID>19</ID>
+    <VietNamese>Hôm nay</VietNamese>
+    <English>Today</English>
+  </Item>
+</DateTimePNA>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OmegaSoft">
+</Property><Property Name="Solution File" Value="C:\Project\OmegaSoft\OmegaSoft.sln">
+</Property><Property Name="Date" Value="Friday, August 10, 2007">
+</Property><Property Name="Time" Value="13:56 PM">
+</Property></Properties><Event ErrorLevel="0" Project="OmegaSoft" Source="OmegaSoft\OmegaSoft.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="OmegaSoft" Source="OmegaSoft\OmegaSoft.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="OmegaSoft.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="OmegaSoft.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OmegaSoft" Source="OmegaSoft\OmegaSoft.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

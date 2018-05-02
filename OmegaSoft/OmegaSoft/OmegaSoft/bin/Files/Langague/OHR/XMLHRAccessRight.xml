@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Quyền truy cập</VietNamese>
+    <English>Access right</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>Danh sách nhân viên</VietNamese>
+    <English>Employee list</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>Danh sách tác vụ</VietNamese>
+    <English>Task list</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>Thêm</VietNamese>
+    <English>Add</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>Xoá</VietNamese>
+    <English>Delete</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>Cập nhật</VietNamese>
+    <English>Update</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Lưu</VietNamese>
+    <English>Save</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Cập nhật dữ liệu</VietNamese>
+    <English>Refesh data</English>
+  </Item>
+  <Item>
+    <ID>8</ID>
+    <VietNamese>Bạn có muốn lưu ?</VietNamese>
+    <English>Are you want to save ?</English>
+  </Item>
+</ConfigsPNA>

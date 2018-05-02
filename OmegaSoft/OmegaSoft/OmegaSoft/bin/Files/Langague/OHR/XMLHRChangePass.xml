@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+  <Item>
+    <ID>0</ID>
+    <VietNamese>Thay đổi mật khẩu</VietNamese>
+    <English>Change password</English>
+  </Item>
+  <Item>
+    <ID>1</ID>
+    <VietNamese>&amp;Tên đăng nhập</VietNamese>
+    <English>&amp;User name</English>
+  </Item>
+  <Item>
+    <ID>2</ID>
+    <VietNamese>&amp;Mật khẩu mới</VietNamese>
+    <English>&amp;New password</English>
+  </Item>
+  <Item>
+    <ID>3</ID>
+    <VietNamese>&amp;Nhập lại mật khẩu mới</VietNamese>
+    <English>&amp;Confirm new password</English>
+  </Item>
+  <Item>
+    <ID>4</ID>
+    <VietNamese>&amp;Đồng ý</VietNamese>
+    <English>&amp;Yes</English>
+  </Item>
+  <Item>
+    <ID>5</ID>
+    <VietNamese>&amp;Thoát</VietNamese>
+    <English>&amp;Exit</English>
+  </Item>
+  <Item>
+    <ID>6</ID>
+    <VietNamese>Mật khẩu mới chưa nhập</VietNamese>
+    <English>You don't input new password</English>
+  </Item>
+  <Item>
+    <ID>7</ID>
+    <VietNamese>Nhập lại mật khẩu</VietNamese>
+    <English>Confirm new password</English>
+  </Item>
+</ConfigsPNA>

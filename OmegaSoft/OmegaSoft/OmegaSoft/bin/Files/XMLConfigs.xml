@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigsPNA>
+	<Item>
+		<ID>0</ID>
+		<Control>Langagues</Control>
+		<Type>VietNamese</Type>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<Control>Skins</Control>
+		<Type>Skins1</Type>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<Control>Fonts</Control>
+		<Type>Arial</Type>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<Control>Numbers</Control>
+		<Type>2</Type>
+	</Item>
+</ConfigsPNA>
