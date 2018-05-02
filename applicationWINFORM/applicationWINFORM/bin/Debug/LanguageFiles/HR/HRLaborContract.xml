@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Item>
+		<ID>0</ID>
+		<VietNam>Hợp đồng lao động</VietNam>
+		<English>Labor contract</English>
+	</Item>	
+	<Item>
+		<ID>1</ID>
+		<VietNam>English</VietNam>
+		<English>Tiếng việt</English>
+	</Item>	
+	<Item>
+		<ID>2</ID>
+		<VietNam>Cập nhật dữ liệu</VietNam>
+		<English>Update data</English>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<VietNam>Thêm mới</VietNam>
+		<English>Add</English>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<VietNam>Xoá</VietNam>
+		<English>Delete</English>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<VietNam>Hiệu chỉnh</VietNam>
+		<English>Edit</English>
+	</Item>
+	<Item>
+		<ID>6</ID>
+		<VietNam>Lưu</VietNam>
+		<English>Save</English>
+	</Item>
+	<Item>
+		<ID>7</ID>
+		<VietNam>Trở về</VietNam>
+		<English>Undo</English>
+	</Item>
+	<Item>
+		<ID>8</ID>
+		<VietNam>In ấn</VietNam>
+		<English>Print</English>
+	</Item>
+	<Item>
+		<ID>9</ID>
+		<VietNam>Xem số mẫu tin mới</VietNam>
+		<English>View new records number</English>
+	</Item>
+	<Item>
+		<ID>10</ID>
+		<VietNam>Tổng số mẫu tin</VietNam>
+		<English>Total records number</English>
+	</Item>
+	<Item>
+		<ID>11</ID>
+		<VietNam>Xử lý</VietNam>
+		<English>Process</English>
+	</Item>
+	<Item>
+		<ID>12</ID>
+		<VietNam>Chức năng</VietNam>
+		<English>Functions</English>
+	</Item>
+	<Item>
+		<ID>13</ID>
+		<VietNam>Chọn tập tin</VietNam>
+		<English>Import file</English>
+	</Item>
+	<Item>
+		<ID>14</ID>
+		<VietNam>Xuất tập tin</VietNam>
+		<English>Export file</English>
+	</Item>	
+	<Item>
+		<ID>15</ID>
+		<VietNam>Trợ giúp</VietNam>
+		<English>Help</English>
+	</Item>
+	<Item>
+		<ID>16</ID>
+		<VietNam>Thông tin</VietNam>
+		<English>Information</English>
+	</Item>
+	<Item>
+		<ID>17</ID>
+		<VietNam>Danh sách</VietNam>
+		<English>List</English>
+	</Item>
+	<Item>
+		<ID>18</ID>
+		<VietNam>Tìm kiếm</VietNam>
+		<English>Search</English>
+	</Item>
+	<Item>
+		<ID>19</ID>
+		<VietNam>(Tất cả)</VietNam>
+		<English>(All)</English>
+	</Item>
+	<Item>
+		<ID>20</ID>
+		<VietNam>Điều kiện lọc</VietNam>
+		<English>Filter condition</English>
+	</Item>
+	<Item>
+		<ID>21</ID>
+		<VietNam>Truy vấn</VietNam>
+		<English>Query</English>
+	</Item>
+	<Item>
+		<ID>22</ID>
+		<VietNam>Thông tin quyền truy cập</VietNam>
+		<English>Access right information</English>
+	</Item>
+	<Item>
+		<ID>23</ID>
+		<VietNam>Bạn không có quyền thêm mẫu tin</VietNam>
+		<English>You don't to have the right to add</English>
+	</Item>
+	<Item>
+		<ID>24</ID>
+		<VietNam>Bạn không có quyền xoá mẫu tin</VietNam>
+		<English>You don't to have the right to delete</English>
+	</Item>
+	<Item>
+		<ID>25</ID>
+		<VietNam>Bạn không có quyền hiệu chỉnh mẫu tin</VietNam>
+		<English>You don't to have the right to edit</English>
+	</Item>
+	<Item>
+		<ID>26</ID>
+		<VietNam>Bạn không có quyền lưu mẫu tin</VietNam>
+		<English>You don't to have the right to save</English>
+	</Item>
+	<Item>
+		<ID>27</ID>
+		<VietNam>Thông tin lưu mẫu tin</VietNam>
+		<English>Information to save</English>
+	</Item>
+	<Item>
+		<ID>28</ID>
+		<VietNam>Bạn có muốn thêm mẫu tin ?</VietNam>
+		<English>Are you sure to add ?</English>
+	</Item>
+	<Item>
+		<ID>29</ID>
+		<VietNam>Bạn có muốn hiệu chỉnh mẫu tin ?</VietNam>
+		<English>Are you sure to edit ?</English>
+	</Item>
+	<Item>
+		<ID>30</ID>
+		<VietNam>Thông tin xoá mẫu tin</VietNam>
+		<English>Information to delete</English>
+	</Item>	
+	<Item>
+		<ID>31</ID>
+		<VietNam>Bạn có muốn xoá mẫu tin ?</VietNam>
+		<English>Are you sure to delete ?</English>
+	</Item>	
+	<Item>
+		<ID>32</ID>
+		<VietNam>Mẫu tin vừa mới ai đó thêm, bắt buộc làm tươi dữ liệu lại !</VietNam>
+		<English>Someone just to add, must be to refesh data !</English>
+	</Item>
+	<Item>
+		<ID>33</ID>
+		<VietNam>IDHợp đồng lao động(*)</VietNam>
+		<English>IDLabor contract(*)</English>
+	</Item>
+	<Item>
+		<ID>34</ID>
+		<VietNam>ID tự động</VietNam>
+		<English>IDAuto</English>
+	</Item>
+	<Item>
+		<ID>35</ID>
+		<VietNam>IDTuỳ biến</VietNam>
+		<English>IDCustomize</English>
+	</Item>
+	<Item>
+		<ID>36</ID>
+		<VietNam>bắt buộc phải nhập.</VietNam>
+		<English>must have a value.</English>
+	</Item>	
+	<Item>
+		<ID>37</ID>
+		<VietNam>Tiền tố IDTuỳ biến bắt buộc  khác (#_)</VietNam>
+		<English>IDCustomize prefix must have not a value (#_)</English>
+	</Item>
+	<Item>
+		<ID>38</ID>
+		<VietNam>Tên(*)</VietNam>
+		<English>Name(*)</English>
+	</Item>
+	<Item>
+		<ID>39</ID>
+		<VietNam>Ghi chú</VietNam>
+		<English>Description</English>
+	</Item>			
+</Table>

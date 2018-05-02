@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configure>
+	<Item>
+		<ID>0</ID>
+		<Name>Langagues</Name>
+		<Value>VietNamese</Value>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<Name>Skins</Name>
+		<Value>Skins1</Value>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<Name>Fonts</Name>
+		<Value>Arial</Value>
+	</Item>
+</Configure>

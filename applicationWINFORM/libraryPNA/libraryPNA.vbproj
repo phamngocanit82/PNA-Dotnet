@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29DA00E0-F125-4C7C-8432-AD65119EB6DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>libraryPNA</RootNamespace>
+    <AssemblyName>libraryPNA</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>libraryPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>libraryPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.4.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.OfficeSkins.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraGrid.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraLayout.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraNavBar.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraPrinting.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraReports.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraRichTextEdit.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraScheduler.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraScheduler.v7.3.Core, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accountant\Class\clsACCBank.vb" />
+    <Compile Include="Accountant\Class\clsACCBankDB.vb" />
+    <Compile Include="Accountant\Item\frmACCBank.Designer.vb">
+      <DependentUpon>frmACCBank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accountant\Item\frmACCBank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsACCForm.vb" />
+    <Compile Include="clsDatabase.vb" />
+    <Compile Include="clsHRForm.vb" />
+    <Compile Include="clsIO.vb" />
+    <Compile Include="clsMenuHelp.vb" />
+    <Compile Include="clsMenuItems.vb" />
+    <Compile Include="clsMenuSystem.vb" />
+    <Compile Include="clsMenuTools.vb" />
+    <Compile Include="clsMenuUtility.vb" />
+    <Compile Include="clsSystem.vb" />
+    <Compile Include="Hotel\Class\clsHOTELIdentity.vb" />
+    <Compile Include="Hotel\Class\clsHOTELIdentityDB.vb" />
+    <Compile Include="Hotel\Item\frmHOTELIdentity.Designer.vb">
+      <DependentUpon>frmHOTELIdentity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel\Item\frmHOTELIdentity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Class\clsHRSchool.vb" />
+    <Compile Include="HumanResource\Class\clsHRSchoolDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRCompany.vb" />
+    <Compile Include="HumanResource\Class\clsHRCompanyDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRCityDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRCountry.vb" />
+    <Compile Include="HumanResource\Class\clsHRCountryDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRDistrict.vb" />
+    <Compile Include="HumanResource\Class\clsHRCity.vb" />
+    <Compile Include="HumanResource\Class\clsHRDistrictDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRLevel.vb" />
+    <Compile Include="HumanResource\Class\clsHRLevelDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRTrainningTerm.vb" />
+    <Compile Include="HumanResource\Class\clsHRTrainningTermDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRCertificate.vb" />
+    <Compile Include="HumanResource\Class\clsHRCertificateDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRNation.vb" />
+    <Compile Include="HumanResource\Class\clsHRNationDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRReligion.vb" />
+    <Compile Include="HumanResource\Class\clsHRReligionDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRLaborContract.vb" />
+    <Compile Include="HumanResource\Class\clsHRLaborContractDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRSkillFavourite.vb" />
+    <Compile Include="HumanResource\Class\clsHRSkillFavouriteDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRMarriageStatus.vb" />
+    <Compile Include="HumanResource\Class\clsHRMarriageStatusDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRCommendDiscipline.vb" />
+    <Compile Include="HumanResource\Class\clsHRCommendDisciplineDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRFamilyRelationship.vb" />
+    <Compile Include="HumanResource\Class\clsHRFamilyRelationshipDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRDepartment.vb" />
+    <Compile Include="HumanResource\Class\clsHRDepartmentDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRJobtitle.vb" />
+    <Compile Include="HumanResource\Class\clsHRJobtitleDB.vb" />
+    <Compile Include="HumanResource\Class\clsHRHospital.vb" />
+    <Compile Include="HumanResource\Class\clsHRHospitalDB.vb" />
+    <Compile Include="HumanResource\Item\frmHRHospital.Designer.vb">
+      <DependentUpon>frmHRHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRHospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRJobtitle.Designer.vb">
+      <DependentUpon>frmHRJobtitle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRJobtitle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRSchool.Designer.vb">
+      <DependentUpon>frmHRSchool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRSchool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRDepartment.Designer.vb">
+      <DependentUpon>frmHRDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRFamilyRelationship.Designer.vb">
+      <DependentUpon>frmHRFamilyRelationship.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRFamilyRelationship.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCommendDiscipline.Designer.vb">
+      <DependentUpon>frmHRCommendDiscipline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCommendDiscipline.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRMarriageStatus.Designer.vb">
+      <DependentUpon>frmHRMarriageStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRMarriageStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRSkillFavourite.Designer.vb">
+      <DependentUpon>frmHRSkillFavourite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRSkillFavourite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRLaborContract.Designer.vb">
+      <DependentUpon>frmHRLaborContract.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRLaborContract.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCompany.Designer.vb">
+      <DependentUpon>frmHRCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRReligion.Designer.vb">
+      <DependentUpon>frmHRReligion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRReligion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRNation.Designer.vb">
+      <DependentUpon>frmHRNation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRNation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCertificate.Designer.vb">
+      <DependentUpon>frmHRCertificate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCertificate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRTrainningTerm.Designer.vb">
+      <DependentUpon>frmHRTrainningTerm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRTrainningTerm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRLevel.Designer.vb">
+      <DependentUpon>frmHRLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRDistrict.Designer.vb">
+      <DependentUpon>frmHRDistrict.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRDistrict.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCity.Designer.vb">
+      <DependentUpon>frmHRCity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCountry.Designer.vb">
+      <DependentUpon>frmHRCountry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResource\Item\frmHRCountry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulePNA.vb" />
+    <Compile Include="Purchasing\Class\clsPUCustomerType.vb" />
+    <Compile Include="Purchasing\Class\clsPUCustomerTypeDB.vb" />
+    <Compile Include="Purchasing\Class\clsPUSupplierType.vb" />
+    <Compile Include="Purchasing\Class\clsPUSupplierTypeDB.vb" />
+    <Compile Include="Purchasing\Class\clsPUCustomerType1.vb" />
+    <Compile Include="Purchasing\Class\clsPUCustomerTypeDB1.vb" />
+    <Compile Include="Purchasing\Item\frmPUCustomerType.Designer.vb">
+      <DependentUpon>frmPUCustomerType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing\Item\frmPUCustomerType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchasing\Item\frmPUSupplierType.Designer.vb">
+      <DependentUpon>frmPUSupplierType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing\Item\frmPUSupplierType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Class\clsBackupDatabase.vb" />
+    <Compile Include="SystemForm\Class\clsChangePassword.vb" />
+    <Compile Include="SystemForm\Class\clsConfigure.vb" />
+    <Compile Include="SystemForm\Class\clsError.vb" />
+    <Compile Include="SystemForm\Class\clsInitialUsers.vb" />
+    <Compile Include="SystemForm\Class\clsLogin.vb" />
+    <Compile Include="SystemForm\Class\clsLogout.vb" />
+    <Compile Include="SystemForm\Class\clsMessage.vb" />
+    <Compile Include="SystemForm\Class\clsPermission.vb" />
+    <Compile Include="SystemForm\Class\clsRestoreDatabase.vb" />
+    <Compile Include="SystemForm\Class\clsUsersManagement.vb" />
+    <Compile Include="SystemForm\Item\frmBackupDatabase.Designer.vb">
+      <DependentUpon>frmBackupDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmBackupDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmChangePassword.Designer.vb">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmConfigure.Designer.vb">
+      <DependentUpon>frmConfigure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmConfigure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmError.Designer.vb">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmFlash.Designer.vb">
+      <DependentUpon>frmFlash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmFlash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmInitialUsers.Designer.vb">
+      <DependentUpon>frmInitialUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmInitialUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmLogout.Designer.vb">
+      <DependentUpon>frmLogout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmLogout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmMessage.Designer.vb">
+      <DependentUpon>frmMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmPermission.Designer.vb">
+      <DependentUpon>frmPermission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmPermission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmProgressbar.Designer.vb">
+      <DependentUpon>frmProgressbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmProgressbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmRestoreDatabase.Designer.vb">
+      <DependentUpon>frmRestoreDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmRestoreDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmUsersManagement.Designer.vb">
+      <DependentUpon>frmUsersManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForm\Item\frmUsersManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accountant\Item\frmACCBank.resx">
+      <DependentUpon>frmACCBank.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel\Item\frmHOTELIdentity.resx">
+      <DependentUpon>frmHOTELIdentity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRHospital.resx">
+      <DependentUpon>frmHRHospital.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRJobtitle.resx">
+      <DependentUpon>frmHRJobtitle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRSchool.resx">
+      <DependentUpon>frmHRSchool.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRDepartment.resx">
+      <DependentUpon>frmHRDepartment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRFamilyRelationship.resx">
+      <DependentUpon>frmHRFamilyRelationship.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRCommendDiscipline.resx">
+      <DependentUpon>frmHRCommendDiscipline.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRMarriageStatus.resx">
+      <DependentUpon>frmHRMarriageStatus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRSkillFavourite.resx">
+      <DependentUpon>frmHRSkillFavourite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRLaborContract.resx">
+      <DependentUpon>frmHRLaborContract.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRCompany.resx">
+      <DependentUpon>frmHRCompany.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRReligion.resx">
+      <DependentUpon>frmHRReligion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRNation.resx">
+      <DependentUpon>frmHRNation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRCertificate.resx">
+      <DependentUpon>frmHRCertificate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRTrainningTerm.resx">
+      <DependentUpon>frmHRTrainningTerm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRLevel.resx">
+      <DependentUpon>frmHRLevel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRDistrict.resx">
+      <DependentUpon>frmHRDistrict.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRCity.resx">
+      <DependentUpon>frmHRCity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResource\Item\frmHRCountry.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHRCountry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchasing\Item\frmPUCustomerType.resx">
+      <DependentUpon>frmPUCustomerType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchasing\Item\frmPUSupplierType.resx">
+      <DependentUpon>frmPUSupplierType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForm\Item\frmError.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForm\Item\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForm\Item\frmMessage.resx">
+      <DependentUpon>frmMessage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\componentPNA\componentPNA.vbproj">
+      <Project>{C0E2F890-6A7C-46FE-A5A1-B8001CF941A8}</Project>
+      <Name>componentPNA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Accountant\Report\" />
+    <Folder Include="Hotel\Report\" />
+    <Folder Include="HumanResource\Report\" />
+    <Folder Include="Purchasing\Report\" />
+    <Folder Include="Stock\Class\" />
+    <Folder Include="Stock\Item\" />
+    <Folder Include="Stock\Report\" />
+    <Folder Include="Tool\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

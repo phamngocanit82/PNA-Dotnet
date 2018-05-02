@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0E2F890-6A7C-46FE-A5A1-B8001CF941A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>componentPNA</RootNamespace>
+    <AssemblyName>componentPNA</AssemblyName>
+    <MyType>Windows</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>componentPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>componentPNA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Utils.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.3, Version=7.3.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ButtonStyle.Designer.vb">
+      <DependentUpon>ButtonStyle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonStyle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalculatorStyle.Designer.vb">
+      <DependentUpon>CalculatorStyle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalculatorStyle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalendarStyle.Designer.vb">
+      <DependentUpon>CalendarStyle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarStyle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClockStyle.Designer.vb">
+      <DependentUpon>ClockStyle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClockStyle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContainFormChild.Designer.vb">
+      <DependentUpon>ContainFormChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContainFormChild.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContainFormChildButton.Designer.vb">
+      <DependentUpon>ContainFormChildButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContainFormChildButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContainFormChildBar.Designer.vb">
+      <DependentUpon>ContainFormChildBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContainFormChildBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmFind.Designer.vb">
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFind.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindReplace.Designer.vb">
+      <DependentUpon>frmFindReplace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RichTextPNA.designer.vb">
+      <DependentUpon>RichTextPNA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextPNA.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ButtonStyle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ButtonStyle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContainFormChildButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContainFormChildButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainFormChildBar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContainFormChildBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ContainFormChild\AClose1.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AClose2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AClose3.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AMenu1.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AMenu2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AMenu3.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\ANext1.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\ANext2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\ANext3.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\APrevious1.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\APrevious2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\APrevious3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\ContainFormChild\AExitBack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\ContainFormChild\AExitBack2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AExitBack3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\ContainFormChild\AExit1.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AExit2.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\AExit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalculatorStyle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalculatorStyle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarStyle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarStyle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClockStyle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClockStyle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainFormChild.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContainFormChild.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFind.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindReplace.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFindReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Image\ContainFormChild\Frame01.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame02.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame03.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame04.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame05.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame06.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame07.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame08.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame09.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame10.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame11.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame12.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame13.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame14.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame15.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame16.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame17.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame18.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame19.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame20.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame21.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame22.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame23.png" />
+    <EmbeddedResource Include="Image\ContainFormChild\Frame24.png" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="RichTextPNA.resx">
+      <DependentUpon>RichTextPNA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

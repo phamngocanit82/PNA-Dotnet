@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Item>
+		<ID>0</ID>
+		<VietNam>Thông tin lỗi</VietNam>
+		<English>Error information</English>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<VietNam>&amp;Chấp nhận</VietNam>
+		<English>&amp;Yes</English>
+	</Item>
+</Table>
